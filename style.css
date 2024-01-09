@@ -1,0 +1,282 @@
+/* FILEPATH: /Users/anuz/Documents/practice/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&display=swap');
+
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+html {
+    padding: 1% 5% 20% 5%;
+    font-family: 'Afacad', sans-serif;
+    background-color: #f5f5f5;
+}
+
+body {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+
+/* Add your desktop-specific styles here */
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 50px;
+}
+
+
+
+.button {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #ff7e61;
+    color: black
+}
+
+main {
+    margin-top: 5%;
+}
+
+.bottom-shadow {
+    box-shadow: 0 6px 0 0 black;
+}
+
+.main-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-left {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-mid {
+    width: 4%;
+}
+
+.main-right {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-left h1 {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+#main-top-right {
+    align-self: center;
+}
+
+#top-buttons {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-bottom {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.big-card {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.card-container {
+    padding: 10px 20px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.card-header-left {
+    font-size: 1.5em;
+
+}
+
+.card-header-right {
+    color: grey;
+    font-size: 0.5em
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content-left {
+    width: 50%;
+    align-self: center;
+    justify-items: center;
+}
+
+.card-content-right {
+    width: 50%;
+}
+
+.card-content-right img {
+    padding: 20px;
+    max-width: 100%;
+}
+
+
+
+.content-title {
+    font-size: 1.3em;
+
+    padding-bottom: 10px;
+}
+
+i {
+    padding-right: 10px;
+}
+
+.card-redirect {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.small-card {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.expanded {
+    background-color: #ff7e61;
+}
+
+.card-button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.expanded .card-button {
+    background-color: white;
+
+}
+
+.expanded .card-button:hover {
+    background-color: #f5f5f5;
+
+}
+
+.expanded .card-button p {
+    content: "p";
+}
+
+.card-button:hover {
+    background-color: #ff7e61;
+}
+
+.small-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 5px;
+}
+
+.expanded-content {
+
+    display: none;
+}
+
+.expanded .expanded-content {
+    margin-top: 50px;
+    display: block;
+}
+
+
+@media (min-width: 768px) {
+
+    /* Styles for desktop */
+
+
+
+}
