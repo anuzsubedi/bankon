@@ -32,9 +32,9 @@ To get a local copy of the project up and running, follow these steps:
 1. Clone the repository: `git clone https://github.com/anuzsubedi/bankon.git`
 2. Open the `index.html` file in your web browser
 
-## License
+<!-- ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). -->
 
 ## Acknowledgements
 
