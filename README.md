@@ -4,7 +4,7 @@ BankOn is a web project that replicates the design of an online banking app. The
 
 ## Screenshot
 
-![BankOn Screenshot](https://i.imgur.com/L3Sf0lS.png)
+![BankOn Screenshot](https://i.imgur.com/HpzoDN0.png)
 
 ## Design Inspiration
 
