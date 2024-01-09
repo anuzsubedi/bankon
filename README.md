@@ -2,6 +2,10 @@
 
 BankOn is a web project that replicates the design of an online banking app. The design inspiration for this project was taken from a webpage design found on Dribbble.
 
+## Screenshot
+
+![BankOn Screenshot](https://i.imgur.com/L3Sf0lS.png)
+
 ## Design Inspiration
 
 The design inspiration for this project can be found on Dribbble at the following link:
